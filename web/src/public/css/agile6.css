@@ -1,0 +1,69 @@
+body{
+  background-image: url(../images/imgback.jpg)
+}
+button{
+  margin:0px;
+}
+.btn {
+  border:none;
+  background:gray;
+  font-style:san-serif;
+  font-family: verdana;
+  color:#fcfcfc;
+  font-size:1rem;
+  padding:1rem 1.3rem;
+  border-radius:6px;
+  transition: all .5s ease;
+  margin:0px .15rem;
+  display:inline-flex;
+}
+
+.btn:hover {
+  background:orange;
+  cursor:pointer;
+}
+
+.btn.large{
+  font-size:2rem;
+  padding:1rem 1.5rem;
+  border-radius:8px;
+}
+
+.btn-grid{
+  display:flex;
+  align-items:flex-start;
+  justify-content:left;
+  padding: 0.2rem;
+}
+
+.filler{
+  flex:1 1 auto;
+  background:red;
+}
+
+.hero{
+  border:1rem;
+  background:gray;
+  font-style:san-serif;
+  font-family: verdana;
+  color:#fcfcfc;
+  font-size:1rem;
+  padding:1rem 1.3rem;
+  border-radius:6px;
+  transition: all .5s ease;
+  margin:0px .15rem;
+  display:inline-flex;
+  
+}
+
+h3{
+  border:1rem;
+  background:gray;
+  font-style:san-serif;
+  font-family: verdana;
+  color:#fcfcfc;
+  font-size:1rem;
+  padding:1rem 1.3rem;
+  border-radius:6px;
+}
+

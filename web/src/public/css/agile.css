@@ -1,0 +1,119 @@
+button{
+  margin:0px;
+}
+.btn {
+  border:none;
+  background:gray;
+  font-style:san-serif;
+  font-family: verdana;
+  color:#fcfcfc;
+  font-size:1rem;
+  padding:1rem 1.3rem;
+  border-radius:6px;
+  transition: all .5s ease;
+  margin:0px .15rem;
+  display:inline-flex;
+}
+
+.btn:hover {
+  background:orange;
+  cursor:pointer;
+}
+
+.btn.large{
+  font-size:2rem;
+  padding:1rem 1.5rem;
+  border-radius:8px;
+}
+
+.btn-grid{
+  
+  padding: 0.2rem;
+  place-items:center;
+}
+
+.filler{
+  flex:1 1 auto;
+  background:red;
+}
+
+.hero{
+  border:1rem;
+  background:gray;
+  font-style:san-serif;
+  font-family: verdana;
+  color:#fcfcfc;
+  font-size:1rem;
+  padding:1rem 1.3rem;
+  border-radius:6px;
+  transition: all .5s ease;
+  margin:0px .15rem;
+  display:inline-flex;
+  
+}
+
+h3{
+  border:1rem;
+  background:gray;
+  font-style:san-serif;
+  font-family: verdana;
+  color:#fcfcfc;
+  font-size:1rem;
+  padding:1rem 1.3rem;
+  border-radius:6px;
+}
+
+a{
+  font-style:san-serif;
+  font-family: verdana;
+  color:#fcfcfc;
+  font-size:1rem;
+  padding:1rem 1.3rem;
+  
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: #fcfcfc;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.extlink{
+  font-size: 2rem;
+  font-family: verdana, geheva, tonoma;
+  
+}
+
